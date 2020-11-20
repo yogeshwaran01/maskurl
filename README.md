@@ -1,6 +1,6 @@
 # MaskUrl
 
-This simple Python Script mask the Phishing url under the Normal url. It generate a hidden url for social engineering.
+This simple Python Script masks the Phishing URL under the Normal URL. It generates a hidden URL for social engineering.
 
 ## Installation
 
