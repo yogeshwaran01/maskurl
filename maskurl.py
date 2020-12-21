@@ -31,7 +31,7 @@ def Shortner(big_url: str) -> str:
     return post(f"https://da.gd/s/?url={big_url}").text
 
 
-def MaslUrl(target_url: str, mask_domain: str, keyword: str) -> str:
+def MaskUrl(target_url: str, mask_domain: str, keyword: str) -> str:
     """
     Function mask the url with given domain and keyword
     """
@@ -46,4 +46,4 @@ if __name__ == "__main__":
     domain = input("Enter the domain name to mask url (With http or https): ")
     keyword = input("Enter the keywords (use '-' instead of whitespace): ")
     print("\n")
-    print(f"\033[91m {MaslUrl(target, domain, keyword)}\033[00m")
+    print(f"\033[91m {MaskUrl(target, domain, keyword)}\033[00m")
